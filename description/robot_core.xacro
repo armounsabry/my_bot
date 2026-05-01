@@ -188,6 +188,33 @@
   </sensor>
 </gazebo>
 
+<!-- IMU START -->
+<link name="imu_link"/>
+
+<joint IMUname="imu_joint" type="fixed">
+  <parent link="base_link"/>
+  <child link="imu_link"/>
+  <origin xyz="0 0 0.1" rpy="0 0 0"/>
+</joint>
+
+<gazebo reference="imu_link">
+  <sensor name="imu_sensor" type="imu">
+
+    <update_rate>50</update_rate>
+    <always_on>true</always_on>
+
+    <plugin name="imu_plugin" filename="libgazebo_ros_imu_sensor.so">
+      <ros>
+        <namespace>/</namespace>
+      </ros>
+
+      <frame_name>imu_link</frame_name>
+      <topic_name>/imu</topic_name>
+    </plugin>
+
+  </sensor>
+</gazebo>
+<!-- IMU END -->
 
 <link name="imu_link">
 </link>
