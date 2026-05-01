@@ -1,7 +1,20 @@
-## Robot Package Template
+part 1:
+I researched and supported for sure from AI models answers to give me answers and plogs, text book and researchs no find out and I uploaded it to repo 
 
-This is a GitHub template. You can make your own copy by clicking the green "Use this template" button.
+part 2:
+I worked on it about 5 days and the bugs that faced me wasn't normal thanks to 2 days I solved git problems and built as can I build 
+base_link
+chassis 
+caster wheel 
+right wheel 
+left wheel
+camera 
+simulate it in gazebo and RViz2 
+and all attached 
 
-It is recommended that you keep the repo/package name the same, but if you do change it, ensure you do a "Find all" using your IDE (or the built-in GitHub IDE by hitting the `.` key) and rename all instances of `my_bot` to whatever your project's name is.
+part3: 
+honestly: I give it to AI model and understand the topics in deep but can't arrange it in the report 
 
-Note that each directory currently has at least one file in it to ensure that git tracks the files (and, consequently, that a fresh clone has direcctories present for CMake to find). These example files can be removed if required (and the directories can be removed if `CMakeLists.txt` is adjusted accordingly).
+
+note: 
+whether I will been accepted or not the mission give me boost to work and search about autonomous concepts and will make me learn more and more
